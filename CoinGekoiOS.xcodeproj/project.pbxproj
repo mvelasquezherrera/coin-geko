@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB4AA4F2AE7148100272303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA4E2AE7148100272303 /* AppDelegate.swift */; };
+		2FB4AA512AE7148100272303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA502AE7148100272303 /* SceneDelegate.swift */; };
+		2FB4AA532AE7148100272303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA522AE7148100272303 /* ViewController.swift */; };
+		2FB4AA562AE7148100272303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB4AA542AE7148100272303 /* Main.storyboard */; };
+		2FB4AA582AE7148200272303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB4AA572AE7148200272303 /* Assets.xcassets */; };
+		2FB4AA5B2AE7148200272303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB4AA592AE7148200272303 /* LaunchScreen.storyboard */; };
+		2FB4AA662AE7148200272303 /* CoinGekoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA652AE7148200272303 /* CoinGekoiOSTests.swift */; };
+		2FB4AA702AE7148200272303 /* CoinGekoiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA6F2AE7148200272303 /* CoinGekoiOSUITests.swift */; };
+		2FB4AA722AE7148200272303 /* CoinGekoiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4AA712AE7148200272303 /* CoinGekoiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB4AA622AE7148200272303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB4AA432AE7148100272303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB4AA4A2AE7148100272303;
+			remoteInfo = CoinGekoiOS;
+		};
+		2FB4AA6C2AE7148200272303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB4AA432AE7148100272303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB4AA4A2AE7148100272303;
+			remoteInfo = CoinGekoiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FB4AA4B2AE7148100272303 /* CoinGekoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinGekoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4AA4E2AE7148100272303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FB4AA502AE7148100272303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FB4AA522AE7148100272303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FB4AA552AE7148100272303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FB4AA572AE7148200272303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB4AA5A2AE7148200272303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FB4AA5C2AE7148200272303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB4AA612AE7148200272303 /* CoinGekoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGekoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4AA652AE7148200272303 /* CoinGekoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoiOSTests.swift; sourceTree = "<group>"; };
+		2FB4AA6B2AE7148200272303 /* CoinGekoiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGekoiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB4AA6F2AE7148200272303 /* CoinGekoiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoiOSUITests.swift; sourceTree = "<group>"; };
+		2FB4AA712AE7148200272303 /* CoinGekoiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB4AA482AE7148100272303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA5E2AE7148200272303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA682AE7148200272303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB4AA422AE7148100272303 = {
+			isa = PBXGroup;
+			children = (
+				2FB4AA4D2AE7148100272303 /* CoinGekoiOS */,
+				2FB4AA642AE7148200272303 /* CoinGekoiOSTests */,
+				2FB4AA6E2AE7148200272303 /* CoinGekoiOSUITests */,
+				2FB4AA4C2AE7148100272303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB4AA4C2AE7148100272303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4AA4B2AE7148100272303 /* CoinGekoiOS.app */,
+				2FB4AA612AE7148200272303 /* CoinGekoiOSTests.xctest */,
+				2FB4AA6B2AE7148200272303 /* CoinGekoiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB4AA4D2AE7148100272303 /* CoinGekoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4AA4E2AE7148100272303 /* AppDelegate.swift */,
+				2FB4AA502AE7148100272303 /* SceneDelegate.swift */,
+				2FB4AA522AE7148100272303 /* ViewController.swift */,
+				2FB4AA542AE7148100272303 /* Main.storyboard */,
+				2FB4AA572AE7148200272303 /* Assets.xcassets */,
+				2FB4AA592AE7148200272303 /* LaunchScreen.storyboard */,
+				2FB4AA5C2AE7148200272303 /* Info.plist */,
+			);
+			path = CoinGekoiOS;
+			sourceTree = "<group>";
+		};
+		2FB4AA642AE7148200272303 /* CoinGekoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4AA652AE7148200272303 /* CoinGekoiOSTests.swift */,
+			);
+			path = CoinGekoiOSTests;
+			sourceTree = "<group>";
+		};
+		2FB4AA6E2AE7148200272303 /* CoinGekoiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4AA6F2AE7148200272303 /* CoinGekoiOSUITests.swift */,
+				2FB4AA712AE7148200272303 /* CoinGekoiOSUITestsLaunchTests.swift */,
+			);
+			path = CoinGekoiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB4AA4A2AE7148100272303 /* CoinGekoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB4AA752AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOS" */;
+			buildPhases = (
+				2FB4AA472AE7148100272303 /* Sources */,
+				2FB4AA482AE7148100272303 /* Frameworks */,
+				2FB4AA492AE7148100272303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinGekoiOS;
+			productName = CoinGekoiOS;
+			productReference = 2FB4AA4B2AE7148100272303 /* CoinGekoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FB4AA602AE7148200272303 /* CoinGekoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB4AA782AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOSTests" */;
+			buildPhases = (
+				2FB4AA5D2AE7148200272303 /* Sources */,
+				2FB4AA5E2AE7148200272303 /* Frameworks */,
+				2FB4AA5F2AE7148200272303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB4AA632AE7148200272303 /* PBXTargetDependency */,
+			);
+			name = CoinGekoiOSTests;
+			productName = CoinGekoiOSTests;
+			productReference = 2FB4AA612AE7148200272303 /* CoinGekoiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FB4AA6A2AE7148200272303 /* CoinGekoiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB4AA7B2AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOSUITests" */;
+			buildPhases = (
+				2FB4AA672AE7148200272303 /* Sources */,
+				2FB4AA682AE7148200272303 /* Frameworks */,
+				2FB4AA692AE7148200272303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB4AA6D2AE7148200272303 /* PBXTargetDependency */,
+			);
+			name = CoinGekoiOSUITests;
+			productName = CoinGekoiOSUITests;
+			productReference = 2FB4AA6B2AE7148200272303 /* CoinGekoiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB4AA432AE7148100272303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2FB4AA4A2AE7148100272303 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2FB4AA602AE7148200272303 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2FB4AA4A2AE7148100272303;
+					};
+					2FB4AA6A2AE7148200272303 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2FB4AA4A2AE7148100272303;
+					};
+				};
+			};
+			buildConfigurationList = 2FB4AA462AE7148100272303 /* Build configuration list for PBXProject "CoinGekoiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB4AA422AE7148100272303;
+			productRefGroup = 2FB4AA4C2AE7148100272303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB4AA4A2AE7148100272303 /* CoinGekoiOS */,
+				2FB4AA602AE7148200272303 /* CoinGekoiOSTests */,
+				2FB4AA6A2AE7148200272303 /* CoinGekoiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB4AA492AE7148100272303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4AA5B2AE7148200272303 /* LaunchScreen.storyboard in Resources */,
+				2FB4AA582AE7148200272303 /* Assets.xcassets in Resources */,
+				2FB4AA562AE7148100272303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA5F2AE7148200272303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA692AE7148200272303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB4AA472AE7148100272303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4AA532AE7148100272303 /* ViewController.swift in Sources */,
+				2FB4AA4F2AE7148100272303 /* AppDelegate.swift in Sources */,
+				2FB4AA512AE7148100272303 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA5D2AE7148200272303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4AA662AE7148200272303 /* CoinGekoiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB4AA672AE7148200272303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4AA702AE7148200272303 /* CoinGekoiOSUITests.swift in Sources */,
+				2FB4AA722AE7148200272303 /* CoinGekoiOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB4AA632AE7148200272303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB4AA4A2AE7148100272303 /* CoinGekoiOS */;
+			targetProxy = 2FB4AA622AE7148200272303 /* PBXContainerItemProxy */;
+		};
+		2FB4AA6D2AE7148200272303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB4AA4A2AE7148100272303 /* CoinGekoiOS */;
+			targetProxy = 2FB4AA6C2AE7148200272303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FB4AA542AE7148100272303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB4AA552AE7148100272303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FB4AA592AE7148200272303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB4AA5A2AE7148200272303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FB4AA732AE7148200272303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB4AA742AE7148200272303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB4AA762AE7148200272303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinGekoiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB4AA772AE7148200272303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinGekoiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FB4AA792AE7148200272303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinGekoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinGekoiOS";
+			};
+			name = Debug;
+		};
+		2FB4AA7A2AE7148200272303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinGekoiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinGekoiOS";
+			};
+			name = Release;
+		};
+		2FB4AA7C2AE7148200272303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinGekoiOS;
+			};
+			name = Debug;
+		};
+		2FB4AA7D2AE7148200272303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.CoinGekoiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinGekoiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB4AA462AE7148100272303 /* Build configuration list for PBXProject "CoinGekoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4AA732AE7148200272303 /* Debug */,
+				2FB4AA742AE7148200272303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB4AA752AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4AA762AE7148200272303 /* Debug */,
+				2FB4AA772AE7148200272303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB4AA782AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4AA792AE7148200272303 /* Debug */,
+				2FB4AA7A2AE7148200272303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB4AA7B2AE7148200272303 /* Build configuration list for PBXNativeTarget "CoinGekoiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB4AA7C2AE7148200272303 /* Debug */,
+				2FB4AA7D2AE7148200272303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FB4AA432AE7148100272303 /* Project object */;
+}
